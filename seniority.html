@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seniority List</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f6f9;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+.download-btn {
+    display: inline-block;
+    background: #0066cc;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.download-btn:hover {
+    background: #004a99;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #003366;
+    font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Preventive Cadre Portal</h1>
+    <h2>Seniority Lists</h2>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h3>Latest Seniority List</h3>
+        <p>Download the latest seniority list of Preventive Officers.</p>
+
+        <a href="pdf/seniority_list.pdf"
+           class="download-btn"
+           target="_blank">
+           Download PDF
+        </a>
+    </div>
+
+    <div class="card">
+        <h3>Archive</h3>
+
+        <ul>
+            <li>
+                <a href="pdf/seniority_2025.pdf" target="_blank">
+                Seniority List 2025
+                </a>
+            </li>
+
+            <li>
+                <a href="pdf/seniority_2024.pdf" target="_blank">
+                Seniority List 2024
+                </a>
+            </li>
+        </ul>
+
+    </div>
+
+    <a href="index.html" class="back-btn">
+        ← Back to Home Page
+    </a>
+
+</div>
+
+</body>
+</html>
